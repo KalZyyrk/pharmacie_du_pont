@@ -1,0 +1,18 @@
+<div class="navbar-bg">
+  <nav [className]="isActive ? 'active navbar wrapper' : 'navbar wrapper'">
+    <div class="navbar-link">
+      <a *ngFor="let navLink of navLinks" href="{{ navLink.link }}">{{
+        navLink.name
+      }}</a>
+    </div>
+    <app-search-bar class="searchbar"></app-search-bar>
+    <img
+      class="menu-burger"
+      [src]="
+        isActive ? '../../assets/close-circle.svg' : '../../assets/menu.svg'
+      "
+      alt=""
+      (click)="toggleNavMenu()"
+    />
+  </nav>
+</div>

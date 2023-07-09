@@ -1,0 +1,24 @@
+.searchbar {
+  width: 300px;
+  display: flex;
+  background-color: var(--color-white);
+}
+.searchbar input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: var(--color-white);
+}
+.searchbar input:focus {
+  outline: none;
+}
+.searchbar img {
+  width: 15px;
+  padding: 10px;
+}
+
+@media (max-width: 800px) {
+  .searchbar {
+    width: calc(100% - 35px);
+  }
+}

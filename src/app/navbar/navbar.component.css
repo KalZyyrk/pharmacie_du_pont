@@ -1,0 +1,50 @@
+.navbar-bg {
+  background-color: var(--color-main);
+}
+nav {
+  padding: 10px;
+  color: var(--color-white);
+  font-family: "Quicksand";
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+.navbar-link {
+  width: calc(100% - 330px);
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.menu-burger {
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+@media (max-width: 1015px) and (min-width: 800px) {
+  nav a {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 800px) {
+  nav {
+    flex-direction: column-reverse;
+  }
+  .navbar-link {
+    display: none;
+    flex-direction: column;
+  }
+  nav.active .navbar-link {
+    display: flex;
+  }
+  .menu-burger {
+    display: block;
+  }
+}
