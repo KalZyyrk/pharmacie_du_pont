@@ -38,6 +38,9 @@ nav a {
     flex-direction: column-reverse;
   }
   .navbar-link {
+    align-items: start;
+    margin-top: 1rem;
+    width: 100%;
     display: none;
     flex-direction: column;
   }
