@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   status = true;
-  time = '3h45';
+  time = $localize`3h45`;
   numero = '08 78 45 98 67';
+  shopStatus = this.status ? $localize`Ferme` : $localize`Ouvre`;
 }

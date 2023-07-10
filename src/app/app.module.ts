@@ -8,9 +8,10 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { LisereComponent } from './lisere/lisere.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent, NavbarComponent, SearchBarComponent, LisereComponent],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, NavbarComponent, SearchBarComponent, LisereComponent, ProductComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
