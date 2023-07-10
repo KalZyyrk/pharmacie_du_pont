@@ -1,0 +1,12 @@
+<div class="lisere">
+  <div class="lisere-item wrapper">
+    <div *ngFor="let item of list">
+      {{ item }}
+    </div>
+    <div class="lisere-item-flags">
+      <button *ngFor="let flag of flags">
+        <img [src]="flag.flag" [alt]="flag.name" />
+      </button>
+    </div>
+  </div>
+</div>

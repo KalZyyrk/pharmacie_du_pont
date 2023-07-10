@@ -1,0 +1,15 @@
+.lisere {
+  height: 25px;
+  background-color: var(--color-dark-main);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lisere-item {
+  font-size: 0.85rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-white);
+}

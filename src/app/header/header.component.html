@@ -8,14 +8,14 @@
       <img src="../../assets/icon_call.svg" alt="" />
       <p>
         Besoin d'une information<br />
-        <span>08 78 45 98 67</span>
+        <span>{{ numero }}</span>
       </p>
     </div>
     <hr />
     <div class="header-info-time">
       <img src="../../assets/icon_clock.svg" alt="" />
       <p>
-        Ferme dans <br /><span>{{ time }}</span>
+        {{ status ? "Ferme" : "Ouvert" }} dans <br /><span>{{ time }}</span>
       </p>
     </div>
   </div>
