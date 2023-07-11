@@ -7,6 +7,4 @@ import { Component, LOCALE_ID } from '@angular/core';
 })
 export class AppComponent {
   title = 'pharmacie_du_pont';
-
-  changeLanguage() {}
 }
