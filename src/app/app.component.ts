@@ -1,4 +1,5 @@
-import { Component, LOCALE_ID } from '@angular/core';
+import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component, LOCALE_ID } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'pharmacie_du_pont';
+  BrowserLang = this.translate.getBrowserLang();
+  constructor(private translate: TranslateService) {
+    translate.setDefaultLang('fr');
+    translate.use(`${this.BrowserLang}`);
+  }
 }

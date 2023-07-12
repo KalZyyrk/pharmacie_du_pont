@@ -1,0 +1,10 @@
+{
+  "header": {
+    "title": "Apotheke auf{$LINE_BREAK}{$START_TAG_SPAN} das Rathaus{$CLOSE_TAG_SPAN}",
+    "info.tel": "Brauche Informationen{$LINE_BREAK}{$START_TAG_SPAN}{$INTERPOLATION}{$CLOSE_TAG_SPAN}",
+    "info.time": "{$INTERPOLATION} in {$LINE_BREAK}{$START_TAG_SPAN}{$INTERPOLATION_1}{$CLOSE_TAG_SPAN}",
+    "time": "3h45",
+    "close": "schließt",
+    "open": "öffnet"
+  }
+}
