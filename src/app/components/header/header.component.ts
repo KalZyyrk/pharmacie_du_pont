@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import { Observable, lastValueFrom } from 'rxjs';
 
 @Component({
   selector: 'app-header',
@@ -6,7 +8,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent {
-  status = true;
-  time = '3h45';
-  numero = '08 78 45 98 67';
+  constructor(private translate: TranslateService) {
+    this.translate.onLangChange.subscribe(() => {
+      this.getStatusTranslate();
+    });
+  }
+
+  status: boolean = true;
+  time: string = `3h45`;
+  numero: string = '08 78 45 98 67';
+  shopStatus: { value: string } = { value: '' };
+
+  getStatusTranslate(): void {
+    const status: string = this.status ? 'header.close' : 'header.open';
+    this.translate
+      .get(status)
+      .subscribe((res) => (this.shopStatus.value = res));
+  }
 }

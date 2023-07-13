@@ -1,0 +1,27 @@
+{
+  "header": {
+    "title": "Apotheke auf",
+    "sub-title": "das Rathaus",
+    "info-tel": "Brauche Informationen",
+    "info-time": "{{value}} in",
+    "close": "Schließt",
+    "open": "Öffnet"
+  },
+  "nav": {
+    "links": {
+      "home": "Startseite",
+      "product": "Unsere Produkte",
+      "service": "Unsere Services",
+      "brand": "Unsere Marken",
+      "contact": "Kontakt"
+    },
+    "searchbar": "Produktsuche..."
+  },
+  "banner": [
+    "Prävention und Gesundheitsberatung",
+    "Nahrungsergänzungsmittel",
+    "Kosmetik und Make-up",
+    "Spagyrie (natürliche Pflanzen)",
+    "Homöopathie"
+  ]
+}

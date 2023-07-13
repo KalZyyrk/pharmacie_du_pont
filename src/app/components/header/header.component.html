@@ -1,13 +1,16 @@
 <header class="header wrapper">
   <div class="logo">
     <img src="../../assets/logo.svg" alt="logo" />
-    <h1>Pharmacie de<br /><span class="logo-title-thin"> la mairie</span></h1>
+    <h1>
+      {{ "header.title" | translate }} <br />
+      <span>{{ "header.sub-title" | translate }}</span>
+    </h1>
   </div>
   <div class="header-info">
     <div class="header-info-tel">
       <img src="../../assets/icon_call.svg" alt="" />
       <p>
-        Besoin d'une information<br />
+        {{ "header.info-tel" | translate }}<br />
         <span>{{ numero }}</span>
       </p>
     </div>
@@ -15,7 +18,9 @@
     <div class="header-info-time">
       <img src="../../assets/icon_clock.svg" alt="" />
       <p>
-        {{ status ? "Ferme" : "Ouvert" }} dans <br /><span>{{ time }}</span>
+        {{ "header.info-time" | translate : shopStatus }}<br /><span>{{
+          time
+        }}</span>
       </p>
     </div>
   </div>

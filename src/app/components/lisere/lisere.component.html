@@ -4,7 +4,7 @@
       {{ item }}
     </div>
     <div class="lisere-item-flags">
-      <button *ngFor="let flag of flags">
+      <button *ngFor="let flag of flags" (click)="useLang(flag.language)">
         <img [src]="flag.flag" [alt]="flag.name" />
       </button>
     </div>

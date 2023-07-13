@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-lisere',
@@ -6,15 +7,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./lisere.component.css'],
 })
 export class LisereComponent {
-  list = [
-    'Prévention & Conseils en matière de Santé',
-    'Compléments alimentaires',
-    'Cosmétiques & Maquillages',
-    'Spagyrie (plantes naturelles)',
-    'Homéopathie',
-  ];
-  flags = [
+  constructor(private translate: TranslateService) {
+    this.translate.onLangChange.subscribe(() => this.getLinkTrad());
+  }
+  list: string[] = [''];
+  flags: { name: string; language: string; flag: string }[] = [
     { name: 'Français', language: 'fr', flag: '../../assets/fr_flag.svg' },
     { name: 'German', language: 'de', flag: '../../assets/de_flag.svg' },
+    { name: 'English', language: 'en', flag: '../../assets/en_flag.svg' },
   ];
+
+  useLang(language: string): void {
+    this.translate.use(language);
+  }
+
+  getLinkTrad(): void {
+    this.translate.get('banner').subscribe((res) => (this.list = res));
+  }
 }

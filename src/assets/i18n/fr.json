@@ -1,0 +1,27 @@
+{
+  "header": {
+    "title": "Pharmacie de",
+    "sub-title": "la mairie",
+    "info-tel": "Besoin d'une information",
+    "info-time": "{{value}} dans",
+    "close": "Ferme",
+    "open": "Ouvre"
+  },
+  "nav": {
+    "links": {
+      "home": "Accueil",
+      "product": "Nos Produits",
+      "service": "Nos Services",
+      "brand": "Nos Marques",
+      "contact": "Contact"
+    },
+    "searchbar": "Rechercher un produit..."
+  },
+  "banner": [
+    "Prévention & Conseils en matière de Santé",
+    "Compléments alimentaires",
+    "Cosmétiques & Maquillages",
+    "Spagyrie (plantes naturelles)",
+    "Homéopathie"
+  ]
+}
