@@ -24,6 +24,7 @@ header {
 h1 span {
   font-weight: 100;
 }
+
 .header-info {
   display: flex;
   gap: 1rem;

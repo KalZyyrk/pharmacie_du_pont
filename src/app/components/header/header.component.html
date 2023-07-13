@@ -1,21 +1,26 @@
 <header class="header wrapper">
   <div class="logo">
     <img src="../../assets/logo.svg" alt="logo" />
-    <h1 i18n>titre</h1>
+    <h1>
+      {{ "header.title" | translate }} <br />
+      <span>{{ "header.sub-title" | translate }}</span>
+    </h1>
   </div>
   <div class="header-info">
     <div class="header-info-tel">
       <img src="../../assets/icon_call.svg" alt="" />
-      <p i18n>
-        Besoin d'une information<br />
+      <p>
+        {{ "header.info-tel" | translate }}<br />
         <span>{{ numero }}</span>
       </p>
     </div>
     <hr />
     <div class="header-info-time">
       <img src="../../assets/icon_clock.svg" alt="" />
-      <p i18n>
-        {{ shopStatus }} dans <br /><span>{{ time }}</span>
+      <p>
+        {{ "header.info-time" | translate : shopStatus }}<br /><span>{{
+          time
+        }}</span>
       </p>
     </div>
   </div>

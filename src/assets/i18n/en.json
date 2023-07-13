@@ -1,1 +1,27 @@
-
+{
+  "header": {
+    "title": "Pharmacy of",
+    "sub-title": "the town hall",
+    "info-tel": "Need information",
+    "info-time": "{{value}} in",
+    "close": "Close",
+    "open": "Open"
+  },
+  "nav": {
+    "links": {
+      "home": "Home",
+      "product": "Our Products",
+      "service": "Our Services",
+      "brand": "Our Brands",
+      "contact": "Contact"
+    },
+    "searchbar": "Search for a product..."
+  },
+  "banner": [
+    "Prevention & Health Advice",
+    "Food supplements",
+    "Cosmetics and Makeup",
+    "Spagyria (natural plants)",
+    "Homeopathy"
+  ]
+}

@@ -1,11 +1,27 @@
 {
-  "header.title": " Pharmacie de{$LINE_BREAK}{$START_TAG_SPAN} la mairie{$CLOSE_TAG_SPAN}",
   "header": {
-    "title": " Pharmacie de{$LINE_BREAK}{$START_TAG_SPAN} la mairie{$CLOSE_TAG_SPAN}",
-    "info.tel": "Besoin d'une information{$LINE_BREAK}{$START_TAG_SPAN}{$INTERPOLATION}{$CLOSE_TAG_SPAN}",
-    "info.time": " {$INTERPOLATION} dans {$LINE_BREAK}{$START_TAG_SPAN}{$INTERPOLATION_1}{$CLOSE_TAG_SPAN}",
-    "time": "3h45",
+    "title": "Pharmacie de",
+    "sub-title": "la mairie",
+    "info-tel": "Besoin d'une information",
+    "info-time": "{{value}} dans",
     "close": "Ferme",
     "open": "Ouvre"
-  }
+  },
+  "nav": {
+    "links": {
+      "home": "Accueil",
+      "product": "Nos Produits",
+      "service": "Nos Services",
+      "brand": "Nos Marques",
+      "contact": "Contact"
+    },
+    "searchbar": "Rechercher un produit..."
+  },
+  "banner": [
+    "Prévention & Conseils en matière de Santé",
+    "Compléments alimentaires",
+    "Cosmétiques & Maquillages",
+    "Spagyrie (plantes naturelles)",
+    "Homéopathie"
+  ]
 }
