@@ -17,6 +17,12 @@
     },
     "searchbar": "Rechercher un produit..."
   },
+  "hero": {
+    "message": "Nous vous acceuillons",
+    "dayWeek" : "Lundi au vendredi",
+    "dayWeekEnd" : "Samedi",
+    "btnContact" : "Contact"
+  },
   "banner": [
     "Prévention & Conseils en matière de Santé",
     "Compléments alimentaires",

@@ -1,5 +1,5 @@
 .home-cover {
-    background-image: linear-gradient(to top right, rgba(99, 184, 133, 0.3), rgba(251, 133, 116, 0.3)), url("../../../assets/hero_img.jpg");
+    background-image: linear-gradient(to top right, rgba(251, 133, 116, 0.4), rgba(99, 184, 133, 0.4)), url("../../../assets/hero_img.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,16 +10,65 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    min-height: 730px
 }
 
 .home-cover__texts {
     font-family: "Quicksand";
     text-align: center;
-    color: #fff;
-    font-size: 1.6rem;
+    color: #E8E8E8;
+    font-size: 1.3rem;
+    font-weight: 700;
     background-color: rgb(43, 77, 88, 0.95);
-    width: 35%;
-    padding: 3rem 1rem;
-    border-radius: 4px;
 }
+
+.home-cover__texts--light {
+    font-weight: 100;
+}
+
+.home-cover__texts .btn {
+    transition: all 0.2s ease-in;
+    font-family: "Roboto";
+    font-size: 0.975rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    color: var(--color-white);
+    background: var(--color-secondary);
+    border-radius: 2px;
+    padding: 0.75rem 1.2rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.home-cover__texts .btn:hover {
+    background: #fb8674da;
+    cursor: pointer;
+}
+
+/* Base Breakpoints TODO : A revoir */
+@media (max-width: 576px) {
+    .home-cover__texts {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}
+
+@media (min-width: 577px) {
+    .home-cover__container {
+        min-height: 530px;
+        padding: 0 2rem;
+    }
+    .home-cover__texts {
+        padding: 2rem 3rem;
+        border-radius: 4px;
+    }
+}
+
+@media (min-width: 800px) {
+    .home-cover__container {
+        min-height: 730px;
+    }
+}
+
