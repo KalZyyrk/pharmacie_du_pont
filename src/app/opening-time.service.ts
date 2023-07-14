@@ -13,6 +13,7 @@ export class OpeningTimeService {
     this.closingHour.setHours(19, 0, 0);
   }
 
+  // Return an Object with the value of the hour left, the minute left and the status of the shop (true = open & false = close)
   getTimer(): { hour: number; minute: number; status: boolean } {
     let hourLeft: number;
     let minuteLeft: number;
