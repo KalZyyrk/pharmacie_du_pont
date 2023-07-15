@@ -17,6 +17,12 @@
     },
     "searchbar": "Search for a product..."
   },
+  "hero": {
+    "message": "We welcome you",
+    "dayWeek" : "Monday to Friday",
+    "dayWeekEnd" : "Saturday",
+    "btnContact" : "Contact"
+  },
   "banner": [
     "Prevention & Health Advice",
     "Food supplements",

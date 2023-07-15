@@ -1,0 +1,28 @@
+<section class="home-cover">
+    <div class="home-cover__container wrapper">
+        <div class="home-cover__texts">
+            <p>{{ "hero.message" | translate }} :</p>
+            <p>
+                {{ "hero.dayWeek" | translate }}
+                <br>
+                <span class="home-cover__texts--light">
+                    08h30 - 12h30
+                    <br>
+                    13h30 - 17h30
+                </span>
+            </p>
+            <p>
+                {{ "hero.dayWeekEnd" | translate }}            
+                <br>
+                <span class="home-cover__texts--light">
+                    08h30 - 12h30
+                </span>
+            </p>
+            <p>
+                <a [routerLink]="['/Contact']"><button class="btn">{{ "hero.btnContact" | translate }}</button></a>
+            </p>
+        </div>
+    </div>
+</section>
+
+

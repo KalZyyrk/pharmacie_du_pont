@@ -17,6 +17,12 @@
     },
     "searchbar": "Produktsuche..."
   },
+  "hero": {
+    "message": "Wir heissen dich willkommen",
+    "dayWeek" : "Montag bis Freitag",
+    "dayWeekEnd" : "Samstag",
+    "btnContact" : "Kontakt"
+  },
   "banner": [
     "Prävention und Gesundheitsberatung",
     "Nahrungsergänzungsmittel",
