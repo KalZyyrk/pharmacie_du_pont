@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { OpeningTimeService } from 'src/app/opening-time.service';
 
 @Component({
   selector: 'app-header',
@@ -7,14 +8,19 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent {
-  constructor(private translate: TranslateService) {
+  constructor(
+    private translate: TranslateService,
+    private timer: OpeningTimeService
+  ) {
     this.translate.onLangChange.subscribe(() => {
       this.getStatusTranslate();
     });
+    const time = timer.getTimer();
+    this.time = `${time.hour}h${time.minute}`;
+    this.status = time.status;
   }
-
   status: boolean = true;
-  time: string = `3h45`;
+  time: string = '';
   numero: string = '08 78 45 98 67';
   shopStatus: { value: string } = { value: '' };
 
