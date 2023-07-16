@@ -1,36 +1,40 @@
 .team {
-    font-family: "Quicksand"; 
+    font-family: "Quicksand";
+    border-bottom: none;
+    box-sizing: border-box;
+    padding: 0 1rem;
 }
 
 .team__title {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    padding-bottom: 1rem;
     font-size: 2rem;
+    border-bottom: 2px solid #dedede;
 }
 
-.team__content{
+.team__content {
     display: flex;
-    justify-content: center;
-    gap: 2rem
+    justify-content: space-between;
+    width: 100%;
 }
 
 .team__card {
-    background: linear-gradient(to top right, rgba(99, 184, 133, 1), rgb(43, 130, 83));
-    border-radius: 3px;
-    padding: 2rem;
+    background-image: linear-gradient(to top right, rgba(99, 184, 133, 0.8), rgba(43, 130, 83, 0.8)), url("../../../assets/team_bg.svg");
+    border-radius: 10px;
+    padding: 3rem 2rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    gap: 0.825rem
+    gap: 1rem;
 }
 
 .team__img img {
-    width: 200px;
-    height: 200px;
+    max-width: 80%;
     border-radius: 50%;
-    border: 3px solid #fff;
+    border: 4px solid #fff;
 }
 
 .team__name {
@@ -51,6 +55,32 @@
     background-image: linear-gradient(to top right, rgba(251, 133, 116, 1), rgb(255, 169, 158));
 }
 
-/* <div class="team__img"></div>
-<div class="team__name"></div>
-<div class="team__status"></div> */
+/* Base Breakpoints TODO : A revoir */
+@media (max-width: 576px) {
+    .team__content {
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+}
+
+/* @media (min-width: 577px) {
+    .team__content {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        width: 70%;
+    }
+} */
+
+@media (min-width: 800px) {
+    .team__content {
+        flex-direction: row;
+        width: 100%;
+    }
+    .team__card {
+        width: 22%;
+    }
+}
+
