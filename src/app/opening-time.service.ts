@@ -7,7 +7,6 @@ export class OpeningTimeService {
   openingHour: Date = new Date();
   closingHour: Date = new Date();
   currentTime: Date = new Date();
-  OpenDay: string[] = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   constructor() {
     this.openingHour.setHours(9, 0, 0);
     this.closingHour.setHours(19, 0, 0);

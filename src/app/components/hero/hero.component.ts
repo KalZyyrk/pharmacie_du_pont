@@ -4,9 +4,8 @@ import { TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-hero',
   templateUrl: './hero.component.html',
-  styleUrls: ['./hero.component.css']
+  styleUrls: ['./hero.component.css'],
 })
 export class HeroComponent {
-  constructor(private translate: TranslateService) {
-  }
+  constructor(private translate: TranslateService) {}
 }

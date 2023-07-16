@@ -19,7 +19,7 @@
       <img src="../../assets/icon_clock.svg" alt="" />
       <p>
         {{ "header.info-time" | translate : shopStatus }}<br /><span>{{
-          time
+          time | date : "HH:mm"
         }}</span>
       </p>
     </div>

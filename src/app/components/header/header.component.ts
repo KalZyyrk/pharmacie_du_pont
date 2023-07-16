@@ -1,3 +1,4 @@
+import { Time } from '@angular/common';
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { OpeningTimeService } from 'src/app/opening-time.service';
@@ -16,11 +17,12 @@ export class HeaderComponent {
       this.getStatusTranslate();
     });
     const time = timer.getTimer();
-    this.time = `${time.hour}h${time.minute}`;
+    this.time = new Date();
+    this.time.setHours(time.hour, time.minute);
     this.status = time.status;
   }
   status: boolean = true;
-  time: string = '';
+  time: Date;
   numero: string = '08 78 45 98 67';
   shopStatus: { value: string } = { value: '' };
 

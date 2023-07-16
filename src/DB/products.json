@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Doliprane",
+    "brand": "Sanofi",
+    "category": "Antalgique",
+    "price": 4.99,
+    "stock": 50
+  },
+  {
+    "name": "Efferalgan",
+    "brand": "Bristol-Myers Squibb",
+    "category": "Antalgique",
+    "price": 5.99,
+    "stock": 30
+  },
+  {
+    "name": "Fervex",
+    "brand": "UPSAt",
+    "category": "Fièvre et Rhume",
+    "price": 7.49,
+    "stock": 20
+  },
+  {
+    "name": "Nurofen",
+    "brand": "Reckitt Benckiser",
+    "category": "Anti-inflammatoire",
+    "price": 8.99,
+    "stock": 40
+  },
+  {
+    "name": "Humex",
+    "brand": "URGO",
+    "category": "Toux",
+    "price": 6.99,
+    "stock": 25
+  },
+  {
+    "name": "Vicks Vaporub",
+    "brand": "Procter & Gamble",
+    "category": "Inhalation",
+    "price": 9.99,
+    "stock": 15
+  },
+  {
+    "name": "Bi-Oil",
+    "brand": "Laboratoire Genevrier",
+    "category": "Soin de la peau",
+    "price": 12.99,
+    "stock": 30
+  },
+  {
+    "name": "Smecta",
+    "brand": "Ipsen",
+    "category": "Troubles digestifs",
+    "price": 5.99,
+    "stock": 35
+  },
+  {
+    "name": "Oscillococcinum",
+    "brand": "Boiron",
+    "category": "Homéopathie",
+    "price": 15.99,
+    "stock": 10
+  },
+  {
+    "name": "Physiomer",
+    "brand": "Laboratoire de la Mer",
+    "category": "Rhinologie",
+    "price": 8.99,
+    "stock": 20
+  }
+]
