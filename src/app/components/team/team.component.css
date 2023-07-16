@@ -1,0 +1,56 @@
+.team {
+    font-family: "Quicksand"; 
+}
+
+.team__title {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.team__content{
+    display: flex;
+    justify-content: center;
+    gap: 2rem
+}
+
+.team__card {
+    background: linear-gradient(to top right, rgba(99, 184, 133, 1), rgb(43, 130, 83));
+    border-radius: 3px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.825rem
+}
+
+.team__img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.team__name {
+    color: var(--color-white);
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.team__status {
+    font-family: "Roboto";
+    color: var(--color-white);
+    background: var(--color-secondary);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    padding: 0.65rem 0.2rem;
+    background-image: linear-gradient(to top right, rgba(251, 133, 116, 1), rgb(255, 169, 158));
+}
+
+/* <div class="team__img"></div>
+<div class="team__name"></div>
+<div class="team__status"></div> */
