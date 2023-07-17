@@ -19,9 +19,9 @@
   },
   "hero": {
     "message": "Nous vous acceuillons",
-    "dayWeek" : "Lundi au vendredi",
-    "dayWeekEnd" : "Samedi",
-    "btnContact" : "Contact"
+    "dayWeek": "Lundi au vendredi",
+    "dayWeekEnd": "Samedi",
+    "btnContact": "Contact"
   },
   "banner": [
     "Prévention & Conseils en matière de Santé",
@@ -29,5 +29,8 @@
     "Cosmétiques & Maquillages",
     "Spagyrie (plantes naturelles)",
     "Homéopathie"
-  ]
+  ],
+  "history": {
+    "title": "Histoire"
+  }
 }

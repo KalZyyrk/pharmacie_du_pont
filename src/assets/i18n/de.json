@@ -19,9 +19,9 @@
   },
   "hero": {
     "message": "Wir heissen dich willkommen",
-    "dayWeek" : "Montag bis Freitag",
-    "dayWeekEnd" : "Samstag",
-    "btnContact" : "Kontakt"
+    "dayWeek": "Montag bis Freitag",
+    "dayWeekEnd": "Samstag",
+    "btnContact": "Kontakt"
   },
   "banner": [
     "Prävention und Gesundheitsberatung",
@@ -29,5 +29,8 @@
     "Kosmetik und Make-up",
     "Spagyrie (natürliche Pflanzen)",
     "Homöopathie"
-  ]
+  ],
+  "history": {
+    "title": "Geschichte"
+  }
 }
