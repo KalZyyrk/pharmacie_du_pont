@@ -1,0 +1,49 @@
+.history {
+  font-family: "Quicksand";
+  border-bottom: none;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  margin-bottom: 3rem;
+}
+.history-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.history-title img {
+  width: 40px;
+}
+.title-line {
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 100%;
+  height: 0.2px;
+}
+h2 {
+  transform: translateY(10%);
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+.history-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.history-content img {
+  width: 250px;
+  margin-left: 5rem;
+}
+.history-text {
+  width: 50%;
+  font-size: 1.3rem;
+  font-weight: light;
+}
+span {
+  color: var(--color-dark-main);
+  font-weight: bold;
+}

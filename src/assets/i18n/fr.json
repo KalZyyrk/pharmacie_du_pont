@@ -19,9 +19,9 @@
   },
   "hero": {
     "message": "Nous vous acceuillons",
-    "dayWeek" : "Lundi au vendredi",
-    "dayWeekEnd" : "Samedi",
-    "btnContact" : "Contact"
+    "dayWeek": "Lundi au vendredi",
+    "dayWeekEnd": "Samedi",
+    "btnContact": "Contact"
   },
   "banner": [
     "Prévention & Conseils en matière de Santé",
@@ -29,5 +29,11 @@
     "Cosmétiques & Maquillages",
     "Spagyrie (plantes naturelles)",
     "Homéopathie"
-  ]
+  ],
+  "history": {
+    "title": "Histoire",
+    "green-content": "La Pharmacie de la mairie",
+    "first-content": "est reconnue depuis sa création en 1866, pour son savoir-faire et son expertise dans le domaine des médecines naturelles.",
+    "second-content": "Au-delà de la délivrance de médicaments sur ordonnance, nous proposons un large éventail de produits naturels sélectionnés pour leurs qualités thérapeutiques ainsi que notre propre gamme de préparations réalisées par nos soins au sein de nos laboratoires, dans le respect des normes pharmaceutiques en vigueur en Suisse."
+  }
 }
