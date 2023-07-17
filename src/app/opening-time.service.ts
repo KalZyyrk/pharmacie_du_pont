@@ -8,7 +8,7 @@ export class OpeningTimeService {
   closingHour: Date = new Date();
   currentTime: Date = new Date();
   constructor() {
-    this.openingHour.setHours(9, 0, 0);
+    this.openingHour.setHours(8, 30, 0);
     this.closingHour.setHours(19, 0, 0);
   }
 
