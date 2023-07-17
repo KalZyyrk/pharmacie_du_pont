@@ -11,6 +11,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { LisereComponent } from './components/lisere/lisere.component';
 import { HeroComponent } from './components/hero/hero.component';
+import { HomeProductGalleryComponent } from './components/home-product-gallery/home-product-gallery.component';
+import { ProductButtonComponent } from './components/product-button/product-button.component';
+import { ProductCardComponent } from './components/product-card/product-card.component';
 
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
   return new TranslateHttpLoader(http);
@@ -25,6 +28,9 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
     SearchBarComponent,
     LisereComponent,
     HeroComponent,
+    HomeProductGalleryComponent,
+    ProductButtonComponent,
+    ProductCardComponent,
   ],
   imports: [
     BrowserModule,

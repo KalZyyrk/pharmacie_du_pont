@@ -1,0 +1,16 @@
+<section>
+  <div class="buttons wrapper">
+    <app-product-button
+      *ngFor="let button of buttons; index as i"
+      [button]="button"
+      [btnIndex]="i"
+      (changeDiplayedProducts)="changeProductDisplayed($event)"
+    ></app-product-button>
+  </div>
+  <div class="gallery wrapper">
+    <app-product-card
+      *ngFor="let product of productsDisplay"
+      [product]="product"
+    ></app-product-card>
+  </div>
+</section>

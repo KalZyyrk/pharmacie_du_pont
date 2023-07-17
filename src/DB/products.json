@@ -4,69 +4,136 @@
     "brand": "Sanofi",
     "category": "Antalgique",
     "price": 4.99,
-    "stock": 50
+    "new": false,
+    "hot": true
   },
   {
     "name": "Efferalgan",
     "brand": "Bristol-Myers Squibb",
     "category": "Antalgique",
     "price": 5.99,
-    "stock": 30
+    "new": false,
+    "hot": true
   },
   {
     "name": "Fervex",
     "brand": "UPSAt",
     "category": "Fièvre et Rhume",
     "price": 7.49,
-    "stock": 20
+    "new": true,
+    "hot": false
   },
   {
     "name": "Nurofen",
     "brand": "Reckitt Benckiser",
     "category": "Anti-inflammatoire",
     "price": 8.99,
-    "stock": 40
+    "new": false,
+    "hot": false
   },
   {
     "name": "Humex",
     "brand": "URGO",
     "category": "Toux",
     "price": 6.99,
-    "stock": 25
+    "new": false,
+    "hot": true
   },
   {
     "name": "Vicks Vaporub",
     "brand": "Procter & Gamble",
     "category": "Inhalation",
     "price": 9.99,
-    "stock": 15
+    "new": true,
+    "hot": true
   },
   {
     "name": "Bi-Oil",
     "brand": "Laboratoire Genevrier",
     "category": "Soin de la peau",
     "price": 12.99,
-    "stock": 30
+    "new": true,
+    "hot": false
   },
   {
     "name": "Smecta",
     "brand": "Ipsen",
     "category": "Troubles digestifs",
     "price": 5.99,
-    "stock": 35
+    "new": false,
+    "hot": true
   },
   {
     "name": "Oscillococcinum",
     "brand": "Boiron",
     "category": "Homéopathie",
     "price": 15.99,
-    "stock": 10
+    "new": true,
+    "hot": false
   },
   {
     "name": "Physiomer",
     "brand": "Laboratoire de la Mer",
     "category": "Rhinologie",
     "price": 8.99,
-    "stock": 20
+    "new": false,
+    "hot": false
+  },
+  {
+    "name": "Lactibiane",
+    "brand": "Pileje",
+    "category": "Probiotiques",
+    "price": 9.99,
+    "new": true,
+    "hot": false
+  },
+  {
+    "name": "Arnigel",
+    "brand": "Boiron",
+    "category": "Traumatologie",
+    "price": 7.99,
+    "new": false,
+    "hot": true
+  },
+  {
+    "name": "Cicabio Crème",
+    "brand": "Bioderma",
+    "category": "Cicatrisation",
+    "price": 10.99,
+    "new": false,
+    "hot": false
+  },
+  {
+    "name": "Exomega Baume Émollient",
+    "brand": "A-Derma",
+    "category": "Peau atopique",
+    "price": 15.99,
+    "new": false,
+    "hot": false
+  },
+  {
+    "name": "SoluStrept",
+    "brand": "Bayer",
+    "category": "Antibiotique",
+    "price": 12.99,
+    "new": false,
+    "hot": false
+  },
+  {
+    "name": "Euphytose",
+    "brand": "Mayoly-Spindler",
+    "category": "Troubles du sommeil",
+    "price": 8.99,
+    "new": true,
+    "hot": false
+  },
+
+  {
+    "name": "Dafalgan",
+    "brand": "Johnson & Johnson",
+    "category": "Antalgique",
+    "price": 3.99,
+    "new": false,
+    "hot": true
   }
 ]

@@ -1,0 +1,7 @@
+<button
+  type="button"
+  [ngClass]="btnIndex % 2 === 0 ? 'dark' : ''"
+  (click)="setDisplay(button.diplay)"
+>
+  {{ button.label }}
+</button>
